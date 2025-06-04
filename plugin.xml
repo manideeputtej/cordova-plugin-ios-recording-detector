@@ -1,0 +1,14 @@
+<plugin id="cordova-plugin-ios-recording-detector" version="1.0.0" xmlns="http://apache.org/cordova/ns/plugins/1.0">
+  <name>RecordingDetector</name>
+  <description>Detect screen recording or mirroring on iOS</description>
+  <license>MIT</license>
+  <author email="example@example.com">OpenAI Plugin Author</author>
+
+  <js-module src="www/detector.js" name="RecordingDetector">
+    <clobbers target="RecordingDetector" />
+  </js-module>
+
+  <platform name="ios">
+    <source-file src="src/ios/RecordingDetector.m" />
+  </platform>
+</plugin>
