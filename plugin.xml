@@ -2,7 +2,7 @@
   <name>RecordingDetector</name>
   <description>Detect screen recording or mirroring on iOS</description>
   <license>MIT</license>
-  <author email="example@example.com">OpenAI Plugin Author</author>
+  <author email="manideep.yadlapalli@gmail.com">Manideep Yadlapalli</author>
 
   <js-module src="www/detector.js" name="RecordingDetector">
     <clobbers target="RecordingDetector" />
